@@ -29,7 +29,7 @@ and open the template in the editor.
 //
 //                });
                 $(".botonExcel").click(function(event1) {
-                    $("#datos_a_enviar").val($("<div>").append($("#reportefactura").eq(0).clone()).html());
+                    $("#datos_a_enviar").val($("<div>").append($("#reportefacturafiltrado").eq(0).clone()).html());
                     $("#FormularioExportacion").submit();
 
                 });
