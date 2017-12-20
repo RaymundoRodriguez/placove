@@ -1,0 +1,23 @@
+/* 
+    Document   : estiloInput
+    Created on : ene 6, 2014, 9:15:01 a.m.
+    Author     : Miguel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.estiloInputR{
+    
+    background: #F2F5A9;
+    
+}
+
+.estiloInputV{
+    
+    background: #9FF781;
+    
+}

@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+div.orgChart {
+
+}
+
+div.orgChart h2 {
+  margin                : 7px;
+  color     			: #1C94C4;
+  font-size             : 1.1em;
+
+}
+
+div.orgChart ul {
+  list-style            : none;
+  margin                : 4px;
+  padding               : 0px;
+  color     			: #1C94C4;
+  font-size             : 0.8em;
+  text-align            : left;
+}
+
+div.orgChart table {
+  width                 : 100%;
+}
+
+div.orgChart tr.lines td.line {
+  width                 : 1px;
+  height                : 20px;
+}
+
+div.orgChart tr.lines td.top {
+  border-top            : 3px solid #cccccc;
+}
+
+div.orgChart tr.lines td.left {
+  border-right          : 2px solid #cccccc;
+}
+
+div.orgChart tr.lines td.right {
+  border-left           : 2px solid #cccccc;
+}
+
+div.orgChart td {
+  text-align            : center;
+  vertical-align        : top;
+  padding               : 0px 2px;
+}
+
+div.orgChart div.node {
+  cursor                : pointer;
+  border                : 2px solid #cccccc;
+  display               : inline-block;
+  height                : 30px;
+  width					: 150px;
+  background-color      : #F6F6F6;
+  border-radius         : 8px;
+  box-shadow            : 4px 4px 6px #888888;
+  -moz-border-radius    : 8px;
+  -moz-box-shadow       : 4px 4px 6px #888888;
+  -webkit-border-radius : 8px;
+  -webkit-box-shadow    : 4px 4px 6px #888888;
+}
+
+div.orgChart div.node.hover {
+  background-color      : #FBEC88;
+}
+
+    body {
+      font-family      : Ubuntu, SansSerif
+    }
+
+    h1 {
+      padding-bottom   : 10px;
+      text-align       : center;
+    }
+
+    h2 {
+      margin-top       : 0px;
+      margin-bottom    : 8px;
+    }
+
+    p {
+      margin           : 0px;
+      padding          : 0px;
+      line-height      : 1.5em;
+    }
+
+    div#text {
+      padding          : 10px;
+    }

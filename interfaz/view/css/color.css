@@ -1,0 +1,55 @@
+
+/*input[type="color"]{
+	height: 50px;
+	width: 90px;
+}*/
+
+#clrColor
+{
+	height: 50px;
+	width: 90px;
+}
+
+#divContenedor{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #666;
+	padding-bottom: 20px;
+}
+
+	#divSelector{
+		padding: 10px;
+		text-align: center;
+	}
+	#divColor{
+		background: #ff006f;
+		text-align: center;
+		padding: 10px 0;
+		width: 80px;
+		margin: 0 auto;
+		-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+					-o-transition: all 1s ease;
+						transition: all 1s ease;
+		border-radius: 15px;
+		font-size: 15px;
+		color: #fff;
+		text-shadow: 1px 1px 5px #000;
+	}
+        #clrColordel
+        {
+            /*padding: 10px 0;*/
+		width: 30px;
+                height: 23px;
+                 margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: .0em;
+                border-radius:  5px 5px 5px 5px;
+                border: 1px solid transparent;
+                padding-top: .0em; padding-right: .0em; padding-bottom: .0em; padding-left: .0em;
+        }

@@ -1,0 +1,2 @@
+Options All -Indexes 
+ErrorDocument 404: "La pagina que ha solicitado no existe"

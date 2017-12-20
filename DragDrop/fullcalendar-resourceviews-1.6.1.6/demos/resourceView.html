@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <link href='../fullcalendar/fullcalendar.css' rel='stylesheet' />
+        <link href='../fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+        <script src='../jquery/jquery-1.9.1.min.js'></script>
+        <script src='../jquery/jquery-ui-1.10.2.custom.min.js'></script>
+        <script src='../fullcalendar/fullcalendar.min.js'></script>
+        <script src="funcionescalendario.js" type='text/javascript'></script>
+        <style type='text/css'>
+
+            body {
+                margin: 20px 100px 20px 20px;
+                text-align: center;
+                font-size: 13px;
+                font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            }
+
+            #calendar {
+                width: 100%;
+            }
+
+            #external-events {
+                float: left;
+                width: 150px;
+                padding: 0 10px;
+                border: 1px solid #ccc;
+                background: #eee;
+                text-align: left;
+            }
+
+            #external-events h4 {
+                font-size: 16px;
+                margin-top: 0;
+                padding-top: 1em;
+            }
+
+            .external-event { /* try to mimick the look of a real event */
+                margin: 10px 0;
+                padding: 2px 4px;
+                background: #3366CC;
+                color: #fff;
+                font-size: .85em;
+                cursor: pointer;
+            }
+
+            #external-events p {
+                margin: 1.5em 0;
+                font-size: 11px;
+                color: #666;
+            }
+
+            #external-events p input {
+                margin: 0;
+                vertical-align: middle;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id='wrap'>
+            <div id='calendar'></div>
+            <div id='contextMenuContainer' style='background-color:blue;width:20px;height:50px;display:none;z-index:999;border-radius:5px;border:1px solid black;position:absolute;'></div>
+            <br></br>
+            <div id='external-events'>
+
+                <h4>conductores</h4>
+                <div class='external-event' id="17">Conductor 1</div>
+                <div class='external-event' id="19">Conductor 2</div>
+                <div class='external-event' id="17">Conductor 3</div>
+                <div class='external-event' id="19">Conductor 4</div>
+                <div class='external-event' id="con1">Conductor 5</div>
+            </div>
+            <div id='external-events'>
+
+                <h4>conductores</h4>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
